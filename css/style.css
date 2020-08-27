@@ -1,0 +1,246 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.center-div{
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	padding:0;
+	text-align: center;
+
+}
+.center-div h1 {
+	color: maroon;
+	font-size: 45px;
+}
+.center-div p{
+	font-size: 30px;
+	color: darkblue;
+}
+.header-buttons a{
+	position: relative;
+	border:2px solid #4acded;
+	border-radius: 100px;
+	padding: 10px;
+	font-size: 24px;
+	margin:0 15px;
+	right: 45px;
+	color: white;
+
+}
+
+.header-extradiv{
+	width: 100%;
+	margin:100px 0;
+
+}
+.extra-div{
+	background: #fff;
+	border:100px;
+	padding:50px;
+	border-radius: 3px;
+	transition: 0.3s;
+	text-align: center;
+}
+.extra-div a{
+	font-size: 40px;
+}
+.extra-div:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+}
+
+/* service offers css start */
+
+.serviceoffers{
+	background: #f7f7f9;
+	padding:50px 0;
+	margin-bottom: 50px;
+}
+.headings{
+	margin-bottom: 50px;
+}
+.headings h2{
+	font-size: 1.5rem!important;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+i{
+	transition:0.4s;
+}
+i:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+
+}
+
+/* service offers css end */
+
+
+
+/* awards won start */
+.project-work{
+	margin:100px 0;
+}
+.project-work h1{
+	font-size: 2rem;
+	text-align: center;
+}
+
+/* awards won end*/
+
+.pricing{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	position: relative;
+}
+.pricing:before{
+	content: '';
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	z-index: -1;
+	background: linear-gradient(160deg,#16c9f6 55%, #fff 0%);
+}
+.money{
+	font-size: 40px;
+	line-height: 1;
+	color: #606060;
+}
+.card{
+	transition: 0.4s ease;
+	text-align: center;
+}
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background: #fff;
+	padding: 25px 9!important;
+}
+.card-body{
+	padding:30px 0px!important;
+}
+.card-body li{
+	margin:10px 0;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #606060;
+}
+.card-footer{
+	background: white!important;
+	padding: 30px 0!important;
+}
+.card-footer a{
+	border:2px solid lightblue;
+	border-radius: 50px;
+	padding:10px;
+	text-decoration: none;
+}
+.card-footer a:hover{
+	color: #fff;
+	background: #50d1c0;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.card:hover{
+	transform: translateY(-20px);
+}
+.card:hover .card-header, .card:hover .money{
+	color: #50d1c0;
+}
+
+.happyclients{
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	padding:80px 0;
+}
+
+.box{
+	text-align: center;
+	border:1px solid rgba(0,0,0,0.2);
+}
+
+.box:hover{
+	background: #16c9f6;
+}
+.box:hover p{
+	color: white;
+}
+.box:hover h1{
+	color: #000;
+}
+.box:hover h2{
+	color: #666666;
+}
+
+.contactus{
+	width: 100%;
+	height: 100vh;
+	padding:80px 0;
+	background: transparent;
+	position: relative;
+}
+.contactus:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(330deg,#16c9f6 55%,#fff 0%);
+	z-index: -1;
+}
+
+.newsletter{
+	width: 100%;
+	height: auto;
+	margin:80px auto;
+}
+.news-input{
+	border-radius: 100px 0px 0px 100px!important;
+}
+.footersection {
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background: #00abff;
+}
+.footersection li{
+	list-style: none;
+
+}
+.footersection li a{
+	text-decoration: none;
+	color: white;
+}
+
+.footersection p{
+	color: white;
+	font-size: 0.9rem;
+	text-transform: capitalize;
+}
+
+
+#myBtn{
+	/*display: none;*/
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border:none;
+	color: #fff;
+	background: #00abff;
+	padding: 10px;
+}
+
+#myBtn:hover{
+	background: #606060;
+}
